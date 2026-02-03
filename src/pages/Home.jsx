@@ -44,11 +44,11 @@ const Home = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Button variant="glow" size="lg">
+              <Button variant="glow" size="lg" onclick={() => navigate('/get-started')}>
                 Open Account
                 <ArrowRight className="w-4 h-4" />
               </Button>
-              <Button variant="secondary" size="lg">View Demo</Button>
+              <Button variant="secondary" size="lg" onclick={() => navigate('/dashboard-preview')}>View Demo</Button>
             </div>
           </motion.div>
         </div>
