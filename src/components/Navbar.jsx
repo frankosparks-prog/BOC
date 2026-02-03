@@ -259,10 +259,10 @@ const Navbar = () => {
                 transition={{ delay: 0.5 }}
                 className="grid grid-cols-2 gap-4 mt-8 pt-8 border-t border-white/10"
               >
-                <Button variant="secondary" className="justify-center w-full" onClick={() => navigate('/get-started')}>
+                <Button variant="secondary" className="justify-center w-full" onClick={() => {navigate('/get-started'); setMobileMenuOpen(false)}}>
                   Log In
                 </Button>
-                <Button variant="glow" className="justify-center w-full" onClick={() => navigate('/get-started')}>
+                <Button variant="glow" className="justify-center w-full" onClick={() => {navigate('/get-started'); setMobileMenuOpen(false)}}>
                   Get Started
                 </Button>
               </motion.div>

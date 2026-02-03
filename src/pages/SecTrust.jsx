@@ -60,7 +60,7 @@ const SecTrust = () => {
           
           {/* Feature 1: FDIC (Important!) */}
           <Card className="lg:col-span-2 p-10 flex flex-col md:flex-row items-center gap-8 bg-gradient-to-br from-white/5 to-transparent" spotlight={true}>
-            <div className="p-6 rounded-full bg-white/5 border border-white/10 shrink-0">
+            <div className="p-6 shrink-0">
                <Shield size={48} className="text-white" />
             </div>
             <div>
